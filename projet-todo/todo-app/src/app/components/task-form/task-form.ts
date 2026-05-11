@@ -8,7 +8,7 @@ import { FormsModule } from '@angular/forms';
   templateUrl: './task-form.html',
   styleUrl: './task-form.css'
 })
-export class TaskFormComponent {
+export class TaskForm {
   newTitle = '';
   @Output() add = new EventEmitter<string>();
 
