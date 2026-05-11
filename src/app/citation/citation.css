@@ -1,0 +1,26 @@
+.card {
+  text-align: center;
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 400px;
+  margin: 30px auto;
+  color: white;
+
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: white;
+  color: #333;
+  font-weight: bold;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
